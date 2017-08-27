@@ -32,12 +32,12 @@ int main(){
     struct Node head;
     auto* ptr=&head;
     // int n,data;
- //   cin>>n;
+    // cin>>n;
     
     // while(n--){
 
     // }
-/*    ptr=head.next;
+/*  ptr=head.next;
     while(ptr!=null){
         cout<<ptr->data<<"\n";
         ptr=ptr->next;
