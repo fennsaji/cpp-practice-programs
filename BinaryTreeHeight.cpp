@@ -40,7 +40,7 @@ int heightbt(struct binarytree* node) {
 }
 
 int main() {
-    struct binarytree* root = NULL;
+    struct binarytree* root;
     vector<int> arr;
     int tmp,t;
     cin >> t;  
@@ -50,10 +50,10 @@ int main() {
         arr.push_back(tmp);
     }
     root = insertbt(arr,0,t);
-    // printbt(&arrp,root,0,t);
-    // for(int i=0;i<t;i++) {
-    //     cout<<arrp[i];
-    // }
+    printbt(&arrp,root,0,t);
+    for(int i=0;i<t;i++) {
+        cout<<arrp[i];
+    }
     int height= heightbt(root);
-    cout<<height;
+    cout<<"\n"<<height;
 }

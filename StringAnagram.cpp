@@ -32,7 +32,7 @@ int number_needed(string a, string b) {
         bIndex=b.find(a[i]);
         if(bIndex == -1)
             count++;
-        else{
+        else {
             blength--;
             b.erase((bIndex),1);
         }
